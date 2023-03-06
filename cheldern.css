@@ -1,0 +1,168 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/image/cheldcare.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+  }
+    .cards{
+      display:flex;
+    }
+    .card{
+      border-radius: 20px;
+      width: 500px;
+      color: rgb(251, 251, 251);
+      padding: 10px;
+      margin: 20px;
+      height: 490px;
+      box-shadow: 2px 2px 6px 2px gray;
+      transition: 0.4s ease;
+    }
+    .card:hover{
+      transition: 0.4s ease;
+     scale: 1.06;
+    }
+    .text{
+      transform: translateY(140px);
+      color: rgb(255, 255, 255);
+    }
+    .card img{
+      transition: 0.4s ease;
+      box-shadow: 2px 2px 6px 2px gray;
+      border-radius: 20px;
+      width: 500px;
+    }
+    .image{
+      border-radius: 20px;
+      height: 210px;
+  
+    }
+    .html{
+      height: 400px;
+      width: 400px;
+    }
+    button a{
+      text-decoration: none;
+    }
+    button{
+      transform: translateY(1200px);
+      transform: translateX(180px);
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 12px;
+      box-shadow: 2px 2px 6px 2px;
+    }
+    .dr2{
+      transform: tr;
+      transform: translateX(100px);
+    }
+    .conainer{
+      display: flex;
+    }
+    h1{
+      
+      transform: translateX(42%);
+      color: white;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  /* Set a specific color for each brand */
+#wrapper{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  transform: translateY(12rem);
+ }
+ #wrapper .buttonn{
+   transition: 0.3s ease-out;
+   display: inline-block;
+   height: 60px;
+   width: 60px;
+   margin: 0 9px;
+   overflow: hidden;
+   background: rgb(248, 246, 246);
+   border-radius: 50px;
+   cursor: pointer;
+   box-shadow: 0px 10px 10px rgba(99, 78, 78, 0.1);
+ }
+ #wrapper .buttonn:nth-child(1):hover .icon{
+   background: #ee1010;
+ }
+ #wrapper .buttonn:nth-child(2):hover .icon{
+   background: #6f7197;
+ }
+ #wrapper .buttonn:nth-child(3):hover .icon{
+   background: #6ec42c;
+ }
+ #wrapper .buttonn .icon a{
+   font-size: 25px;
+   line-height: 60px;
+   color: black;
+ }
+ #wrapper .buttonn:hover{
+   width: 200px;
+ }
+ #wrapper .buttonn span{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 60px;
+   margin-left: 10px;
+
+ }
+ #wrapper .buttonn .icon{
+   display: inline-block;
+   height: 60px;
+   width: 60px;
+   
+   text-align: center;
+   border-radius: 50px;
+   box-sizing: border-box;
+   line-height: 60px;
+ }
+    @media (max-width:768px){
+      .conainer{
+        display: block;
+      }
+      .dr2{
+        transform: translateX(-10px);
+  
+      }
+      .card{
+        border-radius: 20px;
+        width: 690px;
+        color: rgb(251, 251, 251);
+        padding: 10px;
+        margin: 20px;
+        height: 490px;
+        box-shadow: 2px 2px 6px 2px gray;
+        transition: 0.4s ease;
+      }
+      button a{
+        text-decoration: none;
+      }
+      button{
+        transition: 0.4s ease;
+        transform: translateX(200px);
+        font-size: 20px;
+        border-radius: 12px;
+        box-shadow: 2px 2px 6px 2px;
+      }
+      button:hover{
+        transition: 0.4s ease;
+        font-size: 32px;
+  
+      }
+      .image{
+        border-radius: 20px;
+        height: 210px;
+      }
+    }
+    .drugs{
+      background-image: url(/image/drugs.jpg);
+    }
+    

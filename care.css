@@ -1,0 +1,108 @@
+@import url('https://fonts/googleapis.com/css2?family=poppins:wght@400,600,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', 'sans-serif';
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/image/carehealth.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+  }
+    .cards{
+      display:flex;
+    }
+    .card{
+      border-radius: 20px;
+      width: 530px;
+      color: rgb(251, 251, 251);
+      padding: 10px;
+      margin: 20px;
+      height: 490px;
+      box-shadow: 2px 2px 6px 2px gray;
+      transition: 0.4s ease;
+    }
+    .card:hover{
+      transition: 0.4s ease;
+     scale: 1.06s ease;
+    }
+    .text{
+      transform: translateY(100px);
+      color: rgb(255, 255, 255);
+    }
+    .card img{
+      transition: 0.4s ease;
+      box-shadow: 2px 2px 6px 2px gray;
+      border-radius: 20px;
+      width: 500px;
+    }
+    .image{
+      border-radius: 20px;
+      height: 210px;
+  
+    }
+    .html{
+      height: 400px;
+      width: 400px;
+    }
+    button a{
+      text-decoration: none;
+    }
+    button{
+      transform: translateY(1200px);
+      transform: translateX(180px);
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 12px;
+      box-shadow: 2px 2px 6px 2px;
+    }
+    .conainer{
+      display: flex;
+    }
+    @media (max-width:768px){
+      body{
+        background-position: center;
+        background-size: cover;
+
+      
+      }
+      .conainer{
+        display: block;
+      }
+      .card{
+        border-radius: 20px;
+        width: 530px;
+        color: rgb(251, 251, 251);
+        padding: 10px;
+        margin: 20px;
+        height: 490px;
+        box-shadow: 2px 2px 6px 2px gray;
+        transition: 0.4s ease;
+      }
+      button a{
+        text-decoration: none;
+      }
+      button{
+        transition: 0.4s ease;
+        transform: translateX(200px);
+        font-size: 20px;
+        border-radius: 12px;
+        box-shadow: 2px 2px 6px 2px;
+      }
+      button:hover{
+        transition: 0.4s ease;
+        font-size: 32px;
+  
+      }
+      .image{
+        border-radius: 20px;
+        height: 210px;
+      }
+
+    }
+    
